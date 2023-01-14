@@ -1,0 +1,10 @@
+:root {
+  --color-bg-light: rgb(241, 241, 241);
+  --color-bg-dark: rgb(44, 44, 44);
+  --color-font-light: rgb(255, 255, 255);
+  --color-font-dark: rgb(44, 44, 44);
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}/*# sourceMappingURL=style.css.map */
