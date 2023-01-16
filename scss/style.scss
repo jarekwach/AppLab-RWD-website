@@ -4,7 +4,9 @@
 	--color-font-light: rgb(255, 255, 255);
 	--color-font-dark: rgb(44, 44, 44);
 }
-
+html {
+	font-size: 62.5%;
+}
 body {
 	font-family: 'Poppins', sans-serif;
 }
