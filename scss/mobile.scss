@@ -267,3 +267,100 @@
 		text-transform: uppercase;
 	}
 }
+
+// pricing section
+.pricing {
+	background-color: var(--color-bg-light);
+	margin-bottom: 6rem;
+
+	&__title {
+		padding-top: 4rem;
+		margin-bottom: 3rem;
+		font-weight: 300;
+		font-size: 3.6rem;
+		text-align: center;
+		color: var(--color-font-dark);
+	}
+
+	&__description {
+		font-size: 2rem;
+		text-align: center;
+		color: var(--color-font-gray);
+		margin-bottom: 3rem;
+	}
+
+	&__cards {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.price-card {
+		height: 500px;
+		width: 90%;
+		background-color: var(--color-bg-white);
+		box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+		max-width: 55rem;
+		margin-top: 3rem;
+
+		&__header {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			height: 9rem;
+			font-size: 2rem;
+			padding: 0 5rem;
+
+			&-basic {
+				background-color: rgb(233, 244, 254);
+			}
+
+			&-team {
+				background-color: #fef4ee;
+			}
+
+			&-business {
+				background-color: rgb(232, 252, 241);
+			}
+		}
+
+		&__title {
+			font-weight: 500;
+		}
+
+		&__amount {
+			font-size: 2.4rem;
+
+			&-basic {
+				color: var(--color-offer-basic);
+			}
+
+			&-team {
+				color: var(--color-offer-team);
+			}
+
+			&-business {
+				color: var(--color-offer-business);
+			}
+		}
+
+		&__list {
+			height: calc(100% - 90px);
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: space-evenly;
+			color: var(--color-font-gray);
+			font-size: 2rem;
+		}
+
+		&__btn {
+			padding: 1.5rem 4.5rem;
+			border: 1px solid #229af5;
+			border-radius: 5px;
+			color: #229af5;
+			background-color: transparent;
+			font-size: 1.6rem;
+		}
+	}
+}

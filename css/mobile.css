@@ -212,4 +212,85 @@
   color: var(--color-font-light);
   display: inline;
   text-transform: uppercase;
+}
+
+.pricing {
+  background-color: var(--color-bg-light);
+  margin-bottom: 6rem;
+}
+.pricing__title {
+  padding-top: 4rem;
+  margin-bottom: 3rem;
+  font-weight: 300;
+  font-size: 3.6rem;
+  text-align: center;
+  color: var(--color-font-dark);
+}
+.pricing__description {
+  font-size: 2rem;
+  text-align: center;
+  color: var(--color-font-gray);
+  margin-bottom: 3rem;
+}
+.pricing__cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pricing .price-card {
+  height: 500px;
+  width: 90%;
+  background-color: var(--color-bg-white);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  max-width: 55rem;
+  margin-top: 3rem;
+}
+.pricing .price-card__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 9rem;
+  font-size: 2rem;
+  padding: 0 5rem;
+}
+.pricing .price-card__header-basic {
+  background-color: rgb(233, 244, 254);
+}
+.pricing .price-card__header-team {
+  background-color: #fef4ee;
+}
+.pricing .price-card__header-business {
+  background-color: rgb(232, 252, 241);
+}
+.pricing .price-card__title {
+  font-weight: 500;
+}
+.pricing .price-card__amount {
+  font-size: 2.4rem;
+}
+.pricing .price-card__amount-basic {
+  color: var(--color-offer-basic);
+}
+.pricing .price-card__amount-team {
+  color: var(--color-offer-team);
+}
+.pricing .price-card__amount-business {
+  color: var(--color-offer-business);
+}
+.pricing .price-card__list {
+  height: calc(100% - 90px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  color: var(--color-font-gray);
+  font-size: 2rem;
+}
+.pricing .price-card__btn {
+  padding: 1.5rem 4.5rem;
+  border: 1px solid #229af5;
+  border-radius: 5px;
+  color: #229af5;
+  background-color: transparent;
+  font-size: 1.6rem;
 }/*# sourceMappingURL=mobile.css.map */

@@ -1,17 +1,18 @@
 :root {
 	--color-primary: rgb(61, 161, 251);
-	--color-bg-light: rgb(241, 241, 241);
+	--color-bg-light: rgb(251, 251, 251);
 	--color-bg-dark: rgb(44, 44, 44);
 	--color-bg-white: rgb(255, 255, 255);
 	--color-font-light: rgb(255, 255, 255);
 	--color-font-dark: rgb(44, 44, 44);
 	--color-font-gray: rgba(0, 0, 0, 0.5);
-	--color-offer-one: #319bfa;
-	--color-offer-two: #fd9e5d;
-	--color-offer-three: #37ef8c;
+	--color-offer-basic: rgb(18, 139, 247);
+	--color-offer-team: rgb(253, 158, 93);
+	--color-offer-business: rgb(55, 239, 140);
 }
 html {
 	font-size: 62.5%;
+	scroll-behavior: smooth;
 }
 body {
 	font-family: 'Poppins', sans-serif;
