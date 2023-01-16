@@ -91,5 +91,58 @@
 .content__picture {
   position: relative;
   top: 5rem;
-  margin: 0 2rem;
+  margin: 0 1.5rem;
+}
+
+.savings {
+  margin-top: 8rem;
+  background-color: var(--color-bg-white);
+}
+.savings__title {
+  font-size: 3.6rem;
+  font-weight: lighter;
+  margin: 0 1.5rem;
+  margin-bottom: 2rem;
+  color: var(--color-font-dark);
+  text-align: center;
+}
+.savings__cards {
+  max-width: 37rem;
+  margin: 0 auto;
+}
+.savings .saving-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+}
+.savings .saving-card__bg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 130px;
+  height: 130px;
+  border-radius: 25px;
+}
+.savings .saving-card__bg-first {
+  background-color: rgb(3, 130, 245);
+  background-image: linear-gradient(90deg, rgb(3, 130, 245) 0%, rgb(91, 177, 255) 100%);
+}
+.savings .saving-card__bg-second {
+  background-color: rgb(253, 173, 92);
+  background-image: linear-gradient(90deg, rgb(253, 173, 92) 0%, rgb(253, 143, 94) 100%);
+}
+.savings .saving-card__bg-third {
+  background-color: rgb(55, 239, 140);
+  background-image: linear-gradient(90deg, rgb(55, 239, 140) 0%, rgb(81, 241, 155) 100%);
+}
+.savings .saving-card__ico {
+  width: 5.5rem;
+}
+.savings .saving-card__description {
+  font-size: 3rem;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 2rem;
 }/*# sourceMappingURL=mobile.css.map */

@@ -2,8 +2,12 @@
   --color-primary: rgb(61, 161, 251);
   --color-bg-light: rgb(241, 241, 241);
   --color-bg-dark: rgb(44, 44, 44);
+  --color-bg-white: rgb(255, 255, 255);
   --color-font-light: rgb(255, 255, 255);
   --color-font-dark: rgb(44, 44, 44);
+  --color-offer-one: #319bfa;
+  --color-offer-two: #fd9e5d;
+  --color-offer-three: #37ef8c;
 }
 
 html {
@@ -12,4 +16,9 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
 }/*# sourceMappingURL=style.css.map */
