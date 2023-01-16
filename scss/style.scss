@@ -5,6 +5,7 @@
 	--color-bg-white: rgb(255, 255, 255);
 	--color-font-light: rgb(255, 255, 255);
 	--color-font-dark: rgb(44, 44, 44);
+	--color-font-gray: rgba(0, 0, 0, 0.5);
 	--color-offer-one: #319bfa;
 	--color-offer-two: #fd9e5d;
 	--color-offer-three: #37ef8c;
@@ -19,4 +20,14 @@ body {
 .container {
 	max-width: 1200px;
 	margin: 0 auto;
+}
+
+.button {
+	letter-spacing: 2px;
+	border: none;
+	color: var(--color-font-light);
+	border-radius: 8px;
+	padding: 2rem 5rem;
+	font-size: 1.6rem;
+	margin: 5rem 2rem;
 }

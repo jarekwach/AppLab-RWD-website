@@ -98,12 +98,6 @@
 
 	&__btn {
 		background-color: #37ebed;
-		border: none;
-		color: var(--color-font-light);
-		border-radius: 8px;
-		padding: 2rem 6rem;
-		font-size: 1.6rem;
-		margin: 5rem 2rem;
 	}
 
 	&__picture {
@@ -180,11 +174,40 @@
 			width: 5.5rem;
 		}
 
-		&__description {
+		&__text {
 			font-size: 3rem;
 			font-weight: 300;
 			text-align: center;
 			margin-top: 2rem;
 		}
+	}
+}
+
+// features section
+.features {
+	margin: 0 1.5rem;
+
+	&__title {
+		margin-top: 8rem;
+		margin-bottom: 2rem;
+		font-size: 3.6rem;
+		font-weight: 300;
+		text-align: center;
+	}
+
+	&__text {
+		font-size: 2rem;
+		margin-left: 2rem;
+		color: var(--color-font-gray);
+	}
+
+	&__btn {
+		background-color: #0281f5;
+	}
+
+	&__picture {
+		width: 100%;
+		margin: 0 auto;
+		margin-bottom: 8rem;
 	}
 }
