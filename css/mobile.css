@@ -293,4 +293,26 @@
   color: #229af5;
   background-color: transparent;
   font-size: 1.6rem;
+}
+
+.store {
+  height: 400px;
+  background-color: rgb(93, 178, 255);
+  font-size: 3.6rem;
+  color: var(--color-font-light);
+  text-align: center;
+  display: flex;
+}
+.store__container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.store__title {
+  margin: 0 4rem;
+}
+.store__box {
+  margin-top: 1.6rem;
 }/*# sourceMappingURL=mobile.css.map */
