@@ -1,7 +1,7 @@
 :root {
 	--color-primary: rgb(61, 161, 251);
 	--color-bg-light: rgb(251, 251, 251);
-	--color-bg-dark: rgb(44, 44, 44);
+	--color-bg-dark: rgb(33, 33, 33);
 	--color-bg-white: rgb(255, 255, 255);
 	--color-font-light: rgb(255, 255, 255);
 	--color-font-semi-white: rgba(255, 255, 255, 0.7);
@@ -11,10 +11,12 @@
 	--color-offer-team: rgb(253, 158, 93);
 	--color-offer-business: rgb(55, 239, 140);
 }
+
 html {
 	font-size: 62.5%;
 	scroll-behavior: smooth;
 }
+
 body {
 	font-family: 'Poppins', sans-serif;
 }
