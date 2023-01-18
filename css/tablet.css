@@ -14,6 +14,7 @@
   padding-bottom: 3rem;
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
 }
 .content__title {
   font-size: 3.2rem;
@@ -63,7 +64,7 @@
 }
 
 .review__container {
-  margin: 0 10rem;
+  padding: 0 10rem;
 }
 
 .pricing {

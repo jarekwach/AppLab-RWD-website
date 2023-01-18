@@ -17,6 +17,7 @@
 		padding-bottom: 3rem;
 		display: flex;
 		flex-direction: row;
+        justify-content: space-around;
 	}
 
 	&__title {
@@ -80,7 +81,7 @@
 
 .review {
 	&__container {
-		margin: 0 10rem;
+		padding: 0 10rem;
 	}
 }
 
