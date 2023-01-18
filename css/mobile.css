@@ -154,7 +154,7 @@
 .features__text {
   font-size: 2rem;
   margin-left: 2rem;
-  color: var(--color-font-gray);
+  color: var(--color-font-semi-dark);
 }
 .features__btn {
   background-color: #0281f5;
@@ -229,7 +229,7 @@
 .pricing__description {
   font-size: 2rem;
   text-align: center;
-  color: var(--color-font-gray);
+  color: var(--color-font-semi-dark);
   margin-bottom: 3rem;
 }
 .pricing__cards {
@@ -283,7 +283,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  color: var(--color-font-gray);
+  color: var(--color-font-semi-dark);
   font-size: 2rem;
 }
 .pricing .price-card__btn {
@@ -315,4 +315,22 @@
 }
 .store__box {
   margin-top: 1.6rem;
+}
+
+.footer {
+  padding: 0 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100px;
+  background-color: rgb(0, 0, 0);
+}
+.footer__text {
+  text-align: center;
+  font-size: 1.6rem;
+  color: var(--color-font-semi-white);
+  line-height: 2.8rem;
+}
+.footer__text--color {
+  color: #229af5;
 }/*# sourceMappingURL=mobile.css.map */
