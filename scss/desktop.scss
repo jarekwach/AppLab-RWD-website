@@ -30,8 +30,6 @@
 }
 
 .nav {
-	display: block;
-
 	&__burger-btn {
 		display: none;
 	}
@@ -46,25 +44,55 @@
 
 	&__item {
 		padding: 0;
-		text-align: center;
-		transition: transform 0.5s;
+		position: relative;
 
 		&:hover {
-			transform: scale(1.15);
+			.nav__link {
+				transition: all 0.3s;
+				color: var(--color-font-dark);
+				font-weight: 500;
+			}
+
+			.nav__dropdown {
+				display: block;
+			}
 		}
 	}
 
 	&__link {
 		font-size: 1.6rem;
-		padding: 1rem 1.8rem;
 
 		i {
 			display: inline-block;
 		}
 	}
+}
 
-	&__dropdown {
-		display: none;
+.dropdown {
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: -5%;
+	width: 100%;
+
+	font-size: 1.6rem;
+
+	&__item {
+		padding: 10px;
+
+		&:hover {
+			.dropdown__link {
+				transition: all 0.3s;
+				color: var(--color-font-dark);
+				font-weight: 500;
+			}
+		}
+	}
+
+	&__link {
+		color: var(--color-font-light);
+		text-decoration: none;
+		margin: 10px;
 	}
 }
 
