@@ -85,7 +85,7 @@
 	&__title {
 		margin: 6rem 2rem;
 		margin-bottom: 2rem;
-		font-size: 4rem;
+		font-size: 3.6rem;
 		color: var(--color-font-light);
 		line-height: 5rem;
 	}
@@ -271,7 +271,7 @@
 // pricing section
 .pricing {
 	background-color: var(--color-bg-light);
-	margin-bottom: 6rem;
+	padding-bottom: 6rem;
 
 	&__title {
 		padding-top: 4rem;
@@ -311,15 +311,15 @@
 			font-size: 2rem;
 			padding: 0 5rem;
 
-			&-basic {
+			&--basic {
 				background-color: rgb(233, 244, 254);
 			}
 
-			&-team {
+			&--team {
 				background-color: #fef4ee;
 			}
 
-			&-business {
+			&--business {
 				background-color: rgb(232, 252, 241);
 			}
 		}
@@ -331,15 +331,15 @@
 		&__amount {
 			font-size: 2.4rem;
 
-			&-basic {
+			&--basic {
 				color: var(--color-offer-basic);
 			}
 
-			&-team {
+			&--team {
 				color: var(--color-offer-team);
 			}
 
-			&-business {
+			&--business {
 				color: var(--color-offer-business);
 			}
 		}

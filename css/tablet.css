@@ -1,1 +1,92 @@
-/*# sourceMappingURL=tablet.css.map */
+.header {
+  background-position: unset;
+}
+.header__logo {
+  margin-left: 4rem;
+}
+
+.nav__burger-btn {
+  margin-right: 2rem;
+}
+
+.content__container {
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+  display: flex;
+  flex-direction: row;
+}
+.content__title {
+  font-size: 3.2rem;
+  line-height: 4rem;
+}
+.content__heading {
+  padding-left: 5rem;
+}
+.content__picture {
+  padding-right: 5rem;
+  width: 380px;
+  margin: 0;
+}
+
+.savings__title {
+  margin: 2.4rem 24rem;
+  padding: 2rem 0;
+}
+.savings .savings__cards {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  max-width: 90%;
+}
+.savings .saving-card__text {
+  font-size: 2.6rem;
+}
+
+.features {
+  margin: 5rem;
+}
+.features__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.features__description {
+  padding-right: 3rem;
+}
+.features__picture {
+  width: 45%;
+  margin-bottom: 0;
+}
+.features__title {
+  margin-left: 2rem;
+  text-align: left;
+}
+
+.review__container {
+  margin: 0 10rem;
+}
+
+.pricing {
+  padding-bottom: 10rem;
+}
+.pricing__description {
+  margin: 0 15rem;
+}
+.pricing__cards {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.pricing .price-card {
+  width: 28%;
+}
+.pricing .price-card__header {
+  padding: 0 3rem;
+}
+.pricing .price-card--team {
+  height: 550px;
+  z-index: 1;
+}
+.pricing .price-card__list {
+  font-size: 1.8rem;
+}/*# sourceMappingURL=tablet.css.map */
