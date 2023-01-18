@@ -116,14 +116,16 @@
 }
 
 .contact {
+	padding: 0 5rem;
+
 	&__container {
-		margin: 0 5rem;
 		padding: 8rem 0;
 		display: grid;
-		grid-template-columns: 2;
 		grid-template-columns: repeat(2, 1fr);
 		grid-column-gap: 10rem;
+		justify-content: center;
 	}
+
 	.contact-card {
 		&__title {
 			&--main {

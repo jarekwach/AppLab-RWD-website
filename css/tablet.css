@@ -91,13 +91,15 @@
   font-size: 1.8rem;
 }
 
+.contact {
+  padding: 0 5rem;
+}
 .contact__container {
-  margin: 0 5rem;
   padding: 8rem 0;
   display: grid;
-  grid-template-columns: 2;
   grid-template-columns: repeat(2, 1fr);
   grid-column-gap: 10rem;
+  justify-content: center;
 }
 .contact .contact-card__title--main {
   padding-top: 2rem;
