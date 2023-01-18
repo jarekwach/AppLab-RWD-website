@@ -89,4 +89,21 @@
 }
 .pricing .price-card__list {
   font-size: 1.8rem;
+}
+
+.contact__container {
+  margin: 0 5rem;
+  padding: 8rem 0;
+  display: grid;
+  grid-template-columns: 2;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 10rem;
+}
+.contact .contact-card__title--main {
+  padding-top: 2rem;
+  font-size: 2.6rem;
+  font-weight: 500;
+}
+.contact .contact-card__logos {
+  padding-top: 4rem;
 }/*# sourceMappingURL=tablet.css.map */
