@@ -91,27 +91,27 @@
 		margin: 0 15rem;
 	}
 
-	&__cards {
+	&__list {
 		flex-direction: row;
 		align-items: center;
 		justify-content: center;
 	}
-}
 
-.price-card {
-	width: 30%;
+	&__card {
+		width: 30%;
 
-	&__header {
-		padding: 0 3rem;
-	}
+		&-header {
+			padding: 0 3rem;
+		}
 
-	&--team {
-		height: 550px;
-		z-index: 1;
-	}
+		&--team {
+			height: 550px;
+			z-index: 1;
+		}
 
-	&__list {
-		font-size: 1.8rem;
+		&-list {
+			font-size: 1.8rem;
+		}
 	}
 }
 
@@ -125,18 +125,18 @@
 		grid-column-gap: 10rem;
 		justify-content: center;
 	}
+}
 
-	.contact-card {
-		&__title {
-			&--main {
-				padding-top: 2rem;
-				font-size: 2.6rem;
-				font-weight: 500;
-			}
+.contact-card {
+	&__title {
+		&--main {
+			padding-top: 2rem;
+			font-size: 2.6rem;
+			font-weight: 500;
 		}
+	}
 
-		&__logos {
-			padding-top: 4rem;
-		}
+	&__logos {
+		padding-top: 4rem;
 	}
 }

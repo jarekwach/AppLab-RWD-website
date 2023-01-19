@@ -140,17 +140,16 @@
   padding-top: 10rem;
   font-size: 4.8rem;
 }
-.pricing__cards {
+.pricing__list {
   padding: 0 3rem;
 }
-
-.price-card {
+.pricing__card {
   width: 33.3333333333%;
 }
-.price-card__btn {
+.pricing__card-btn {
   transition: all 0.3s;
 }
-.price-card__btn:hover {
+.pricing__card-btn:hover {
   background-color: var(--color-primary);
   color: var(--color-font-light);
   transform: scale(1.05);
@@ -193,10 +192,11 @@
   grid-template-columns: 35% repeat(3, 1fr);
   grid-column-gap: 2rem;
 }
-.contact .contact-card--main {
+
+.contact-card--main {
   padding-right: 5rem;
 }
-.contact .contact-card__logo:hover .contact-card__ico {
+.contact-card__logo:hover .contact-card__ico {
   transition: all 0.5s;
   color: var(--color-primary);
 }/*# sourceMappingURL=desktop.css.map */

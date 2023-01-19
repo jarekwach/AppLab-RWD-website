@@ -73,23 +73,22 @@
 .pricing__description {
   margin: 0 15rem;
 }
-.pricing__cards {
+.pricing__list {
   flex-direction: row;
   align-items: center;
   justify-content: center;
 }
-
-.price-card {
+.pricing__card {
   width: 30%;
 }
-.price-card__header {
+.pricing__card-header {
   padding: 0 3rem;
 }
-.price-card--team {
+.pricing__card--team {
   height: 550px;
   z-index: 1;
 }
-.price-card__list {
+.pricing__card-list {
   font-size: 1.8rem;
 }
 
@@ -103,11 +102,12 @@
   grid-column-gap: 10rem;
   justify-content: center;
 }
-.contact .contact-card__title--main {
+
+.contact-card__title--main {
   padding-top: 2rem;
   font-size: 2.6rem;
   font-weight: 500;
 }
-.contact .contact-card__logos {
+.contact-card__logos {
   padding-top: 4rem;
 }/*# sourceMappingURL=tablet.css.map */
