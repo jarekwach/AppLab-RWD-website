@@ -107,11 +107,10 @@
 .savings__title {
   font-size: 4.8rem;
 }
-.savings__cards {
+.savings__list {
   max-width: 100%;
 }
-
-.saving-card {
+.savings__item {
   max-width: 29%;
 }
 

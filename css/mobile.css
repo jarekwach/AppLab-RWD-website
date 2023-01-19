@@ -100,19 +100,18 @@
   color: var(--color-font-dark);
   text-align: center;
 }
-.savings__cards {
+.savings__list {
   max-width: 37rem;
   margin: 0 auto;
 }
-
-.saving-card {
+.savings__item {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 3rem;
 }
-.saving-card__bg {
+.savings__bg {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -120,22 +119,22 @@
   height: 130px;
   border-radius: 25px;
 }
-.saving-card__bg-first {
+.savings__bg--first {
   background-color: rgb(3, 130, 245);
   background-image: linear-gradient(90deg, rgb(3, 130, 245) 0%, rgb(91, 177, 255) 100%);
 }
-.saving-card__bg-second {
+.savings__bg--second {
   background-color: rgb(253, 173, 92);
   background-image: linear-gradient(90deg, rgb(253, 173, 92) 0%, rgb(253, 143, 94) 100%);
 }
-.saving-card__bg-third {
+.savings__bg--third {
   background-color: rgb(55, 239, 140);
   background-image: linear-gradient(90deg, rgb(55, 239, 140) 0%, rgb(81, 241, 155) 100%);
 }
-.saving-card__ico {
+.savings__ico {
   width: 5.5rem;
 }
-.saving-card__text {
+.savings__text {
   font-size: 3rem;
   font-weight: 300;
   text-align: center;

@@ -33,14 +33,13 @@
   margin: 2.4rem 24rem;
   padding: 2rem 0;
 }
-.savings__cards {
+.savings__list {
   display: flex;
   align-items: flex-start;
   justify-content: space-around;
   max-width: 90%;
 }
-
-.saving-card__text {
+.savings__text {
   font-size: 2.6rem;
 }
 

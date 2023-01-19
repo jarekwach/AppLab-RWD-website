@@ -42,15 +42,13 @@
 		padding: 2rem 0;
 	}
 
-	&__cards {
+	&__list {
 		display: flex;
 		align-items: flex-start;
 		justify-content: space-around;
 		max-width: 90%;
 	}
-}
 
-.saving-card {
 	&__text {
 		font-size: 2.6rem;
 	}

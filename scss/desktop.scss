@@ -2,7 +2,7 @@
 	height: 90vh;
 
 	&__container {
-        padding: 0 1rem;
+		padding: 0 1rem;
 		background-color: transparent;
 		display: flex;
 		align-items: center;
@@ -135,13 +135,13 @@
 		font-size: 4.8rem;
 	}
 
-	&__cards {
+	&__list {
 		max-width: 100%;
 	}
-}
 
-.saving-card {
-	max-width: 29%;
+	&__item {
+		max-width: 29%;
+	}
 }
 
 .features {
@@ -181,7 +181,6 @@
 	&__cards {
 		padding: 0 3rem;
 	}
-
 }
 
 .price-card {
