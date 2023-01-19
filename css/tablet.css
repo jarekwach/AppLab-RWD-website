@@ -1,5 +1,5 @@
 .header {
-  background-position: unset;
+  background-position: left bottom;
 }
 .header__logo {
   margin-left: 4rem;
@@ -33,13 +33,14 @@
   margin: 2.4rem 24rem;
   padding: 2rem 0;
 }
-.savings .savings__cards {
+.savings__cards {
   display: flex;
   align-items: flex-start;
   justify-content: space-around;
   max-width: 90%;
 }
-.savings .saving-card__text {
+
+.saving-card__text {
   font-size: 2.6rem;
 }
 
@@ -78,17 +79,18 @@
   align-items: center;
   justify-content: center;
 }
-.pricing .price-card {
+
+.price-card {
   width: 30%;
 }
-.pricing .price-card__header {
+.price-card__header {
   padding: 0 3rem;
 }
-.pricing .price-card--team {
+.price-card--team {
   height: 550px;
   z-index: 1;
 }
-.pricing .price-card__list {
+.price-card__list {
   font-size: 1.8rem;
 }
 

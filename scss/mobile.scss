@@ -126,60 +126,60 @@
 		max-width: 37rem;
 		margin: 0 auto;
 	}
+}
 
-	.saving-card {
+.saving-card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 3rem;
+
+	&__bg {
 		display: flex;
-		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-		padding: 3rem;
+		width: 130px;
+		height: 130px;
+		border-radius: 25px;
 
-		&__bg {
-			display: flex;
-			align-items: center;
-			justify-content: center;
-			width: 130px;
-			height: 130px;
-			border-radius: 25px;
-
-			&-first {
-				background-color: rgba(3, 130, 245, 1);
-				background-image: linear-gradient(
-					90deg,
-					rgba(3, 130, 245, 1) 0%,
-					rgba(91, 177, 255, 1) 100%
-				);
-			}
-
-			&-second {
-				background-color: rgba(253, 173, 92, 1);
-				background-image: linear-gradient(
-					90deg,
-					rgba(253, 173, 92, 1) 0%,
-					rgba(253, 143, 94, 1) 100%
-				);
-			}
-
-			&-third {
-				background-color: rgba(55, 239, 140, 1);
-				background-image: linear-gradient(
-					90deg,
-					rgba(55, 239, 140, 1) 0%,
-					rgba(81, 241, 155, 1) 100%
-				);
-			}
+		&-first {
+			background-color: rgba(3, 130, 245, 1);
+			background-image: linear-gradient(
+				90deg,
+				rgba(3, 130, 245, 1) 0%,
+				rgba(91, 177, 255, 1) 100%
+			);
 		}
 
-		&__ico {
-			width: 5.5rem;
+		&-second {
+			background-color: rgba(253, 173, 92, 1);
+			background-image: linear-gradient(
+				90deg,
+				rgba(253, 173, 92, 1) 0%,
+				rgba(253, 143, 94, 1) 100%
+			);
 		}
 
-		&__text {
-			font-size: 3rem;
-			font-weight: 300;
-			text-align: center;
-			margin-top: 2rem;
+		&-third {
+			background-color: rgba(55, 239, 140, 1);
+			background-image: linear-gradient(
+				90deg,
+				rgba(55, 239, 140, 1) 0%,
+				rgba(81, 241, 155, 1) 100%
+			);
 		}
+	}
+
+	&__ico {
+		width: 5.5rem;
+	}
+
+	&__text {
+		font-size: 3rem;
+		font-weight: 300;
+		text-align: center;
+		margin-top: 2rem;
 	}
 }
 
@@ -294,74 +294,74 @@
 		flex-direction: column;
 		align-items: center;
 	}
+}
 
-	.price-card {
-		height: 500px;
-		width: 90%;
-		background-color: var(--color-bg-white);
-		box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-		max-width: 55rem;
-		margin-top: 3rem;
+.price-card {
+	height: 500px;
+	width: 90%;
+	background-color: var(--color-bg-white);
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+	max-width: 55rem;
+	margin-top: 3rem;
 
-		&__header {
-			display: flex;
-			justify-content: space-between;
-			align-items: center;
-			height: 9rem;
-			font-size: 2rem;
-			padding: 0 5rem;
+	&__header {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		height: 9rem;
+		font-size: 2rem;
+		padding: 0 5rem;
 
-			&--basic {
-				background-color: rgb(233, 244, 254);
-			}
-
-			&--team {
-				background-color: #fef4ee;
-			}
-
-			&--business {
-				background-color: rgb(232, 252, 241);
-			}
+		&--basic {
+			background-color: rgb(233, 244, 254);
 		}
 
-		&__title {
-			font-weight: 500;
+		&--team {
+			background-color: #fef4ee;
 		}
 
-		&__amount {
-			font-size: 2.4rem;
+		&--business {
+			background-color: rgb(232, 252, 241);
+		}
+	}
 
-			&--basic {
-				color: var(--color-offer-basic);
-			}
+	&__title {
+		font-weight: 500;
+	}
 
-			&--team {
-				color: var(--color-offer-team);
-			}
+	&__amount {
+		font-size: 2.4rem;
 
-			&--business {
-				color: var(--color-offer-business);
-			}
+		&--basic {
+			color: var(--color-offer-basic);
 		}
 
-		&__list {
-			height: calc(100% - 90px);
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-			justify-content: space-evenly;
-			color: var(--color-font-semi-dark);
-			font-size: 2rem;
+		&--team {
+			color: var(--color-offer-team);
 		}
 
-		&__btn {
-			padding: 1.5rem 4.5rem;
-			border: 1px solid #229af5;
-			border-radius: 5px;
-			color: #229af5;
-			background-color: transparent;
-			font-size: 1.6rem;
+		&--business {
+			color: var(--color-offer-business);
 		}
+	}
+
+	&__list {
+		height: calc(100% - 90px);
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-evenly;
+		color: var(--color-font-semi-dark);
+		font-size: 2rem;
+	}
+
+	&__btn {
+		padding: 1.5rem 4.5rem;
+		border: 1px solid #229af5;
+		border-radius: 5px;
+		color: #229af5;
+		background-color: transparent;
+		font-size: 1.6rem;
 	}
 }
 

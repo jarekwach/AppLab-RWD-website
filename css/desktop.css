@@ -107,7 +107,7 @@
 .savings__title {
   font-size: 4.8rem;
 }
-.savings .savings__cards {
+.savings__cards {
   max-width: 100%;
 }
 
@@ -144,13 +144,14 @@
 .pricing__cards {
   padding: 0 3rem;
 }
-.pricing .price-card {
+
+.price-card {
   width: 33.3333333333%;
 }
-.pricing .price-card__btn {
-  transition: all 0.5s;
+.price-card__btn {
+  transition: all 0.3s;
 }
-.pricing .price-card__btn:hover {
+.price-card__btn:hover {
   background-color: var(--color-primary);
   color: var(--color-font-light);
   transform: scale(1.05);

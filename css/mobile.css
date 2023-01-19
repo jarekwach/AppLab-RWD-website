@@ -104,14 +104,15 @@
   max-width: 37rem;
   margin: 0 auto;
 }
-.savings .saving-card {
+
+.saving-card {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 3rem;
 }
-.savings .saving-card__bg {
+.saving-card__bg {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -119,22 +120,22 @@
   height: 130px;
   border-radius: 25px;
 }
-.savings .saving-card__bg-first {
+.saving-card__bg-first {
   background-color: rgb(3, 130, 245);
   background-image: linear-gradient(90deg, rgb(3, 130, 245) 0%, rgb(91, 177, 255) 100%);
 }
-.savings .saving-card__bg-second {
+.saving-card__bg-second {
   background-color: rgb(253, 173, 92);
   background-image: linear-gradient(90deg, rgb(253, 173, 92) 0%, rgb(253, 143, 94) 100%);
 }
-.savings .saving-card__bg-third {
+.saving-card__bg-third {
   background-color: rgb(55, 239, 140);
   background-image: linear-gradient(90deg, rgb(55, 239, 140) 0%, rgb(81, 241, 155) 100%);
 }
-.savings .saving-card__ico {
+.saving-card__ico {
   width: 5.5rem;
 }
-.savings .saving-card__text {
+.saving-card__text {
   font-size: 3rem;
   font-weight: 300;
   text-align: center;
@@ -237,7 +238,8 @@
   flex-direction: column;
   align-items: center;
 }
-.pricing .price-card {
+
+.price-card {
   height: 500px;
   width: 90%;
   background-color: var(--color-bg-white);
@@ -245,7 +247,7 @@
   max-width: 55rem;
   margin-top: 3rem;
 }
-.pricing .price-card__header {
+.price-card__header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -253,31 +255,31 @@
   font-size: 2rem;
   padding: 0 5rem;
 }
-.pricing .price-card__header--basic {
+.price-card__header--basic {
   background-color: rgb(233, 244, 254);
 }
-.pricing .price-card__header--team {
+.price-card__header--team {
   background-color: #fef4ee;
 }
-.pricing .price-card__header--business {
+.price-card__header--business {
   background-color: rgb(232, 252, 241);
 }
-.pricing .price-card__title {
+.price-card__title {
   font-weight: 500;
 }
-.pricing .price-card__amount {
+.price-card__amount {
   font-size: 2.4rem;
 }
-.pricing .price-card__amount--basic {
+.price-card__amount--basic {
   color: var(--color-offer-basic);
 }
-.pricing .price-card__amount--team {
+.price-card__amount--team {
   color: var(--color-offer-team);
 }
-.pricing .price-card__amount--business {
+.price-card__amount--business {
   color: var(--color-offer-business);
 }
-.pricing .price-card__list {
+.price-card__list {
   height: calc(100% - 90px);
   display: flex;
   flex-direction: column;
@@ -286,7 +288,7 @@
   color: var(--color-font-semi-dark);
   font-size: 2rem;
 }
-.pricing .price-card__btn {
+.price-card__btn {
   padding: 1.5rem 4.5rem;
   border: 1px solid #229af5;
   border-radius: 5px;

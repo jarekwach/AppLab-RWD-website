@@ -1,5 +1,5 @@
 .header {
-	background-position: unset;
+	background-position: left bottom;
 	&__logo {
 		margin-left: 4rem;
 	}
@@ -17,7 +17,7 @@
 		padding-bottom: 3rem;
 		display: flex;
 		flex-direction: row;
-        justify-content: space-around;
+		justify-content: space-around;
 	}
 
 	&__title {
@@ -41,17 +41,18 @@
 		margin: 2.4rem 24rem;
 		padding: 2rem 0;
 	}
-	.savings__cards {
+
+	&__cards {
 		display: flex;
 		align-items: flex-start;
 		justify-content: space-around;
 		max-width: 90%;
 	}
+}
 
-	.saving-card {
-		&__text {
-			font-size: 2.6rem;
-		}
+.saving-card {
+	&__text {
+		font-size: 2.6rem;
 	}
 }
 
@@ -97,22 +98,22 @@
 		align-items: center;
 		justify-content: center;
 	}
+}
 
-	.price-card {
-		width: 30%;
+.price-card {
+	width: 30%;
 
-		&__header {
-			padding: 0 3rem;
-		}
+	&__header {
+		padding: 0 3rem;
+	}
 
-		&--team {
-			height: 550px;
-			z-index: 1;
-		}
+	&--team {
+		height: 550px;
+		z-index: 1;
+	}
 
-		&__list {
-			font-size: 1.8rem;
-		}
+	&__list {
+		font-size: 1.8rem;
 	}
 }
 
