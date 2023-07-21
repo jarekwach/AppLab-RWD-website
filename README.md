@@ -1,4 +1,4 @@
-![screen or GIF of your app](./assets/screen-desktop.png)
+![AppLab](./assets/screen-desktop.png)
 
 # AppLab RWD website
 
@@ -6,14 +6,13 @@ See the live version of [AppLab](https://jarekwach.github.io/AppLab-RWD-website/
 
 AppLab is a responsive landing page modeled after [Colorlib](https://colorlib.com/) free Applab template. The project was created according to the **mobile first** approach.
 
-
 **Main features**:
 
-- HTML5
-- CSS3
-- RWD
-- BEM
-- Mobile first
+- Semantic HTML
+- CSS variables
+- BEM methodology
+- Mobile first approach
+- RWD - designed for phone, tablet and desktop
 
 &nbsp;
 
@@ -26,16 +25,28 @@ AppLab is a responsive landing page modeled after [Colorlib](https://colorlib.co
 
 &nbsp;
 
+## :camera: Screenshots
+
+### Mobile
+
+![Mobile](./assets/screen-mobile.png)
+
+### Tablet
+
+![Tablet](./assets/screen-tablet.png)
+
+&nbsp;
+
 ## 🙋‍♂️ Feel free to contact me
 
 Find me on...
 
 [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jarosław-wąchała/)
-[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white)](https://www.facebook.com/jaroslaw.wachala)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jaroslaw.wachala@gmail.com)
 
 &nbsp;
 
-## 👏  Special thanks / Credits
+## 👏 Special thanks / Credits
 
 - Thanks to my [Mentor - devmentor.pl](https://devmentor.pl/) – for providing me with this task and for code review.
 - Thanks to [Colorlib](https://colorlib.com/) for free template.
