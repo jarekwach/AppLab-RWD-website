@@ -29,11 +29,15 @@ AppLab is a responsive landing page modeled after [Colorlib](https://colorlib.co
 
 ### Mobile
 
-![Mobile](./assets/screen-mobile.png)
+![Mobile screenshot](./assets/screen-mobile.png)
 
 ### Tablet
 
-![Tablet](./assets/screen-tablet.png)
+![Tablet screenshot](./assets/screen-tablet.png)
+
+### Desktop
+
+![Desktop screenshot](./assets/screen-desktop.png)
 
 &nbsp;
 
